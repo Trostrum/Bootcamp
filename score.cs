@@ -5,9 +5,6 @@ public class score : MonoBehaviour
 {
 
     public Text score_Lable;
-    
-
-    // Update is called once per frame
     void Update()
     {
         int scoreInt = (int)gameObject.transform.position.z;
